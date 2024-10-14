@@ -9,16 +9,16 @@ const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
-  "docker.swift12315.us.kg": dockerHub,
-  "quay.swift12315.us.kg": "https://quay.io",
-  "gcr.swift12315.us.kg": "https://gcr.io",
-  "k8s-gcr.swift12315.us.kg": "https://k8s.gcr.io",
-  "k8s.swift12315.us.kg": "https://registry.k8s.io",
-  "ghcr.swift12315.us.kg": "https://ghcr.io",
-  "cloudsmith.swift12315.us.kg": "https://docker.cloudsmith.io",
+  "docker.swift-12315.top": dockerHub,
+  "quay.swift-12315.top": "https://quay.io",
+  "gcr.swift-12315.top": "https://gcr.io",
+  "k8s-gcr.swift-12315.top": "https://k8s.gcr.io",
+  "k8s.swift-12315.top": "https://registry.k8s.io",
+  "ghcr.swift-12315.top": "https://ghcr.io",
+  "cloudsmith.swift-12315.top": "https://docker.cloudsmith.io",
 
   // staging
-  "docker-staging.swift12315.us.kg": dockerHub,
+  "docker-staging.swift-12315.top": dockerHub,
 };
 
 function routeByHosts(host) {
