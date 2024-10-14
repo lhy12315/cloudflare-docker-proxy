@@ -13,13 +13,13 @@ TARGET_UPSTREAM = "https://registry-1.docker.io"
 [env.production]
 name = "cloudflare-docker-proxy"
 routes = [
-  { pattern = "docker.swift12315.us.kg", custom_domain = true },
-  { pattern = "quay.swift12315.us.kg", custom_domain = true },
-  { pattern = "gcr.swift12315.us.kg", custom_domain = true },
-  { pattern = "k8s-gcr.swift12315.us.kg", custom_domain = true },
-  { pattern = "k8s.swift12315.us.kg", custom_domain = true },
-  { pattern = "ghcr.swift12315.us.kg", custom_domain = true },
-  { pattern = "cloudsmith.swift12315.us.kg", custom_domain = true },
+  { pattern = "docker.swift-12315.top", custom_domain = true },
+  { pattern = "quay.swift-12315.top", custom_domain = true },
+  { pattern = "gcr.swift-12315.top", custom_domain = true },
+  { pattern = "k8s-gcr.swift-12315.top", custom_domain = true },
+  { pattern = "k8s.swift-12315.top", custom_domain = true },
+  { pattern = "ghcr.swift-12315.top", custom_domain = true },
+  { pattern = "cloudsmith.swift-12315.top", custom_domain = true },
 ]
 
 [env.production.vars]
@@ -28,7 +28,7 @@ TARGET_UPSTREAM = ""
 
 [env.staging]
 name = "cloudflare-docker-proxy-staging"
-route = { pattern = "docker-staging.swift12315.us.kg", custom_domain = true }
+route = { pattern = "docker-staging.swift-12315.top", custom_domain = true }
 
 [env.staging.vars]
 MODE = "staging"
